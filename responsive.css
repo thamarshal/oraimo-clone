@@ -1,0 +1,45 @@
+@media (max-width: 480px) {
+    .head{
+        height: 75px;
+        line-height: 23px;
+    }
+   .menu{
+    display: none;
+    }
+    header{
+        height: 50px;
+    }
+    header span,header input{
+        display: none;
+    }
+    header img{
+        width: 65px;
+        padding: 0;
+        text-align: center;
+    }
+    .navigation{
+        margin: 0;
+    }
+    hr{
+        display: none;
+    }
+    .cart1{
+        /* float: left; */
+        margin: 0;
+        width: 0;
+        
+    }
+    .cart2{
+        float: right;
+        margin: 0;
+        
+    }
+    .cart-details{
+        grid-template-columns: 100px;
+        margin: 0;
+    }
+    .best-seller{
+        grid-template-columns: auto auto;
+        margin: 0;
+    }
+}

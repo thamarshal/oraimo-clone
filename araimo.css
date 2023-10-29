@@ -1,0 +1,280 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* overflow-y: hidden; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+hr{
+    margin-left: 70px;
+    margin-right: 60px;
+}
+.head{
+    height: 40px;
+    background-color: #8ec31f;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 600;
+}
+.head a{
+    float: right;
+    clear: right;
+    margin-right: 100px;
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+header{
+    height: 150px;
+}
+header img{
+    width: 200px;
+    padding: 55px;
+}
+header input{
+    float: right;
+    clear: right;
+    margin-right: 100px;
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 165px;
+    height: 25px
+}
+header span{
+    float: right;
+    margin-top: 30px;
+    color: rgb(46, 42, 42);
+    font-size: 14px;
+}
+header p,.fas{
+    display: inline;
+    position: relative;
+    bottom: 50px;
+    left: 850px;
+    font-size: 14px;
+    color: rgb(46, 42, 42);
+}
+.menu{
+    height: 40px;
+    background-color: #8ec31f;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 38px;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+ul{
+    padding: 0;
+    margin: 0px;
+    list-style: none;
+    text-align: center;
+}
+li{
+    display: inline;
+    padding: 25px;
+    color: whitesmoke;
+}
+.menulink {
+    text-decoration: none;
+}
+.navigation{
+    color: gray;
+    margin-left: 70px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.cart h4{
+    margin-left: 70px;
+    /* display: inline; */
+    font-weight: 700;
+    font-size: 23px;
+    width: 70%;
+}
+.cart a{
+    float: right;
+    margin-right: 70px;
+    margin-top: -60px;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+.product{
+    width: 60%;
+    margin-left: 70px;
+
+}
+.cart-details{
+    display: grid;
+    grid-template-columns: 65% 30%;
+    margin-left: 70px;
+}
+
+.products h4{
+    color: #676767;
+    background-color: #fafafa;
+    border-bottom: solid 2px #e7e7e7;;
+    height: 40px;
+    padding-left: 15px;
+    line-height: 40px;
+}
+.product-details{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.product-details h5{
+    color: gray;
+}
+.product-details p{
+    text-transform: capitalize;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: #232323;
+}
+.product-details input{
+    height: 30px;
+    width: 80px;
+}
+.product-details button{
+    background-color: white;
+    border: 1px solid #676767;
+    height: 35px;
+    width: 110px;
+    margin-left: 50px;
+    color:#676767;
+}
+.product-details a{
+    text-decoration: none;
+    color: #676767;
+    margin-left: 60px;
+}
+.order-summary h4{
+    color: #676767;
+    background-color: #fafafa;
+    border-bottom: solid 2px #e7e7e7;;
+    height: 40px;
+    padding-left: 15px;
+    line-height: 40px;
+    margin-left: 20px;
+    text-align: center;
+}
+.total{
+    padding-left: 20px;
+}
+.total p{
+    display: inline;
+}
+.total h3{
+    display: inline;
+    padding-left: 40px;
+}
+.total a{
+    border: 2px solid #e95144;
+    background-color:#e95144;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 11px;
+    border-radius: 1px;
+    padding: 2px;
+}
+.total span{
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.total textarea{
+    height: 100px;
+    width: 360px;
+    border:1px solid #676767;
+}
+.total button{
+    height: 45px;
+    width: 370px;
+    background-color: white;
+    border:1px solid #676767;     
+}
+h4{
+    margin-left: 70px;
+}
+.best-seller{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: 70px;
+    margin-right: 60px;
+    text-align: center;
+}
+.best-seller img{
+    max-width: 100%;
+}
+.best-seller p{
+    font-size: 13px;
+    font-weight: 600;
+}
+.best-seller del{
+    color: #676767;
+}
+.best-seller h5{
+    color:#e95144;
+    
+}
+.best-seller button{
+    position: relative;
+    bottom: 350px;
+    left: 110px;
+    border: 2px solid #e95144;
+    background-color:#e95144;
+    color: whitesmoke;
+}
+.foot-grid{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 40%;
+    margin-left: 70px;
+    margin-right: 60px;
+}
+.foot-grid h5{
+    color: whitesmoke;
+    font-size: 15px;
+    margin-top: 50px;
+}
+.foot-grid a{
+    text-decoration: none;
+    color: #676767;
+    font-weight: 600;
+    font-size: 13px;
+}
+.foot-grid span{
+    position: relative;
+    top: 45px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+.foot-grid h6{
+    color: whitesmoke;
+}
+.foot-grid input{
+    height: 30px;
+    width: 280px;
+    background-color:#232323 ;
+    border:gray 1px solid;
+    color:#676767 ;
+    padding-left: 20px;
+}
+.foot-grid button{
+    height: 35px;
+    width: 90px;
+    padding: 10px;
+    padding-bottom: 20px;
+    background-color: #3b3b3b;
+    color: honeydew;
+    border: none;
+    font-weight: 500;
+}
+footer{
+    background-color:#232323;
+    height: 450px;
+}
+.pp{
+    margin-left: 70px;
+    color:#676767 ;
+}
